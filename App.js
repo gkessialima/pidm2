@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
-import Firestore from './Atividade6/Firestore'
+import { SafeAreaProvider } from 'react-native-safe-area-context'
+import Rotas from './Atividade7/src/Rotas'
 
 export class App extends Component {
   render() {
     return (
-      <Firestore></Firestore>
+      <SafeAreaProvider>
+        <Rotas></Rotas>
+      </SafeAreaProvider>
     )
   }
 }
