@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import { SafeAreaProvider } from 'react-native-safe-area-context'
-import Rotas from './Atividade7/src/Rotas'
+import Rotas from './trabalhoFinal/src/components/Routes'
 
 export class App extends Component {
   render() {
     return (
       <SafeAreaProvider>
-        <Rotas></Rotas>
+      <Rotas></Rotas>
       </SafeAreaProvider>
     )
   }
